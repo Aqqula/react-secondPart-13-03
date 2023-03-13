@@ -1,0 +1,10 @@
+.heading{
+  text-align: center;
+  color:teal;
+}
+.welcome{
+  padding: 10px ;
+  margin: 5px;
+  color:tomato;
+  border: 2px solid tomato;
+}

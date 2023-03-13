@@ -1,0 +1,16 @@
+@use "/src/common/styles/colors" as *;
+@use "/src/common/styles/template" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.light {
+  @extend %light;
+}
+.dark {
+  @extend %dark;
+}

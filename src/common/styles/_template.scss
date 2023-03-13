@@ -1,0 +1,23 @@
+
+%one-line{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%light{
+background-color: wheat;
+color: #222;
+}
+
+%dark{
+background-color: #222;
+color: wheat;
+}
